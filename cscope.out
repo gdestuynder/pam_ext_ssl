@@ -1,0 +1,1735 @@
+cscope 15 $HOME/git/linux-pam/pam_ssl/pam_ext_ssl-0.1               0000010079
+	@pam_ext_ssl.c
+
+1 
+	#PAM_SM_ACCOUNT
+
+
+	)
+
+2 
+	#PAM_SM_AUTH
+
+
+	)
+
+3 
+	#PAM_SM_PASSWORD
+
+
+	)
+
+4 
+	#PAM_SM_SESSION
+
+
+	)
+
+6 #ifdeà
+HAVE_SECURITY_PAM_APPL_H
+
+
+7 
+	~<£cur™y/·m_­¶.h
+>
+
+9 #ifdeà
+HAVE_SECURITY_PAM_MODULES_H
+
+
+10 
+	~<£cur™y/·m_moduËs.h
+>
+
+13 
+	$·m_sm_Ý’_£ssiÚ
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+, 
+¬gc
+, cÚ¡ **
+¬gv
+) {
+
+14 (
+PAM_IGNORE
+);
+
+15 
+	}
+}
+
+17 
+	$·m_sm_þo£_£ssiÚ
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+, 
+¬gc
+, cÚ¡ **
+¬gv
+) {
+
+18 (
+PAM_IGNORE
+);
+
+19 
+	}
+}
+
+21 
+	$·m_sm_acù_mgmt
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+, 
+¬gc
+, cÚ¡ **
+¬gv
+) {
+
+22 (
+PAM_IGNORE
+);
+
+23 
+	}
+}
+
+25 
+	$·m_sm_auth’tiÿ‹
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+, 
+¬gc
+, cÚ¡ **
+¬gv
+) {
+
+26 (
+PAM_FAIL
+);
+
+27 
+	}
+}
+
+29 
+	$·m_sm_£tüed
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+, 
+¬gc
+, cÚ¡ **
+¬gv
+) {
+
+30 (
+PAM_IGNORE
+);
+
+31 
+	}
+}
+
+33 
+	$·m_sm_chauthtok
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+, 
+¬gc
+, cÚ¡ **
+¬gv
+) {
+
+34 (
+PAM_IGNORE
+);
+
+35 
+	}
+}
+
+	@/usr/include/security/pam_appl.h
+
+11 #iâdeà
+_SECURITY_PAM_APPL_H
+
+
+12 
+	#_SECURITY_PAM_APPL_H
+
+
+	)
+
+14 #ifdeà
+__ýlu¥lus
+
+
+18 
+	~<£cur™y/_·m_ty³s.h
+>
+
+22 
+PAM_NONNULL
+((1,3,4))
+
+23 
+·m_¡¬t
+(cÚ¡ *
+£rviû_Çme
+, cÚ¡ *
+u£r
+,
+
+24 cÚ¡ 
+·m_cÚv
+ *
+·m_cÚv”§tiÚ
+,
+
+25 
+·m_hªdË_t
+ **
+·mh
+);
+
+27 
+PAM_NONNULL
+((1))
+
+28 
+·m_’d
+(
+·m_hªdË_t
+ *
+·mh
+, 
+·m_¡©us
+);
+
+32 
+PAM_NONNULL
+((1))
+
+33 
+·m_auth’tiÿ‹
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+);
+
+35 
+PAM_NONNULL
+((1))
+
+36 
+·m_£tüed
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+);
+
+40 
+PAM_NONNULL
+((1))
+
+41 
+·m_acù_mgmt
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+);
+
+45 
+PAM_NONNULL
+((1))
+
+46 
+·m_Ý’_£ssiÚ
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+);
+
+48 
+PAM_NONNULL
+((1))
+
+49 
+·m_þo£_£ssiÚ
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+);
+
+53 
+PAM_NONNULL
+((1))
+
+54 
+·m_chauthtok
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+);
+
+58 
+	~<£cur™y/_·m_com·t.h
+>
+
+60 #ifdeà
+__ýlu¥lus
+
+
+	@/usr/include/security/pam_modules.h
+
+10 #iâdeà
+_SECURITY_PAM_MODULES_H
+
+
+11 
+	#_SECURITY_PAM_MODULES_H
+
+
+	)
+
+13 #ifdeà
+__ýlu¥lus
+
+
+17 
+	~<£cur™y/_·m_ty³s.h
+>
+
+21 
+PAM_NONNULL
+((1,2))
+
+22 
+·m_£t_d©a
+(
+·m_hªdË_t
+ *
+·mh
+, cÚ¡ *
+moduË_d©a_Çme
+, *
+d©a
+,
+
+23 (*
+þ—nup
+)(
+·m_hªdË_t
+ *
+·mh
+, *
+d©a
+,
+
+24 
+”rÜ_¡©us
+));
+
+26 
+PAM_NONNULL
+((1,2,3))
+
+27 
+·m_g‘_d©a
+(cÚ¡ 
+·m_hªdË_t
+ *
+·mh
+, cÚ¡ *
+moduË_d©a_Çme
+,
+
+28 cÚ¡ **
+d©a
+);
+
+30 
+PAM_NONNULL
+((1,2))
+
+31 
+·m_g‘_u£r
+(
+·m_hªdË_t
+ *
+·mh
+, cÚ¡ **
+u£r
+, cÚ¡ *
+´om±
+);
+
+33 #ifdeà
+PAM_STATIC
+
+
+35 
+	#PAM_EXTERN
+ 
+
+	)
+
+37 
+	s·m_moduË
+ {
+
+38 cÚ¡ *
+	gÇme
+;
+
+42 (*
+	g·m_sm_auth’tiÿ‹
+)(
+·m_hªdË_t
+ *
+	g·mh
+, 
+	gæags
+,
+
+43 
+	g¬gc
+, cÚ¡ **
+	g¬gv
+);
+
+44 (*
+	g·m_sm_£tüed
+)(
+·m_hªdË_t
+ *
+	g·mh
+, 
+	gæags
+,
+
+45 
+	g¬gc
+, cÚ¡ **
+	g¬gv
+);
+
+46 (*
+	g·m_sm_acù_mgmt
+)(
+·m_hªdË_t
+ *
+	g·mh
+, 
+	gæags
+,
+
+47 
+	g¬gc
+, cÚ¡ **
+	g¬gv
+);
+
+48 (*
+	g·m_sm_Ý’_£ssiÚ
+)(
+·m_hªdË_t
+ *
+	g·mh
+, 
+	gæags
+,
+
+49 
+	g¬gc
+, cÚ¡ **
+	g¬gv
+);
+
+50 (*
+	g·m_sm_þo£_£ssiÚ
+)(
+·m_hªdË_t
+ *
+	g·mh
+, 
+	gæags
+,
+
+51 
+	g¬gc
+, cÚ¡ **
+	g¬gv
+);
+
+52 (*
+	g·m_sm_chauthtok
+)(
+·m_hªdË_t
+ *
+	g·mh
+, 
+	gæags
+,
+
+53 
+	g¬gc
+, cÚ¡ **
+	g¬gv
+);
+
+58 
+	#PAM_EXTERN
+ 
+
+	)
+
+67 #ià(
+defšed
+(
+PAM_STATIC
+è&& defšed(
+PAM_SM_AUTH
+)) || !defined(PAM_STATIC)
+
+70 
+PAM_EXTERN
+ 
+·m_sm_auth’tiÿ‹
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+,
+
+71 
+¬gc
+, cÚ¡ **
+¬gv
+);
+
+72 
+PAM_EXTERN
+ 
+·m_sm_£tüed
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+,
+
+73 
+¬gc
+, cÚ¡ **
+¬gv
+);
+
+76 || !
+defšed
+(
+PAM_STATIC
+)*/
+
+78 #ià(
+defšed
+(
+PAM_STATIC
+è&& defšed(
+PAM_SM_ACCOUNT
+)) || !defined(PAM_STATIC)
+
+81 
+PAM_EXTERN
+ 
+·m_sm_acù_mgmt
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+,
+
+82 
+¬gc
+, cÚ¡ **
+¬gv
+);
+
+85 || !
+defšed
+(
+PAM_STATIC
+)*/
+
+87 #ià(
+defšed
+(
+PAM_STATIC
+è&& defšed(
+PAM_SM_SESSION
+)) || !defined(PAM_STATIC)
+
+90 
+PAM_EXTERN
+ 
+·m_sm_Ý’_£ssiÚ
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+,
+
+91 
+¬gc
+, cÚ¡ **
+¬gv
+);
+
+93 
+PAM_EXTERN
+ 
+·m_sm_þo£_£ssiÚ
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+,
+
+94 
+¬gc
+, cÚ¡ **
+¬gv
+);
+
+97 || !
+defšed
+(
+PAM_STATIC
+)*/
+
+99 #ià(
+defšed
+(
+PAM_STATIC
+è&& defšed(
+PAM_SM_PASSWORD
+)) || !defined(PAM_STATIC)
+
+102 
+PAM_EXTERN
+ 
+·m_sm_chauthtok
+(
+·m_hªdË_t
+ *
+·mh
+, 
+æags
+,
+
+103 
+¬gc
+, cÚ¡ **
+¬gv
+);
+
+106 || !
+defšed
+(
+PAM_STATIC
+)*/
+
+114 
+	#PAM_PRELIM_CHECK
+ 0x4000
+
+	)
+
+118 
+	#PAM_UPDATE_AUTHTOK
+ 0x2000
+
+	)
+
+130 
+	#PAM_DATA_REPLACE
+ 0x20000000
+
+	)
+
+134 
+	~<£cur™y/_·m_com·t.h
+>
+
+136 #ifdeà
+__ýlu¥lus
+
+
+	@/usr/include/security/_pam_compat.h
+
+1 #iâdeà
+_PAM_COMPAT_H
+
+
+2 
+	#_PAM_COMPAT_H
+
+
+	)
+
+14 #ià
+defšed
+(
+sÞ¬is
+è|| (defšed(
+__SVR4
+è&& defšed(
+sun
+))
+
+16 #ifdeà
+_SECURITY_PAM_MODULES_H
+
+
+19 #undeà
+PAM_PRELIM_CHECK
+
+
+20 
+	#PAM_PRELIM_CHECK
+ 0x1
+
+	)
+
+22 #undeà
+PAM_UPDATE_AUTHTOK
+
+
+23 
+	#PAM_UPDATE_AUTHTOK
+ 0x2
+
+	)
+
+27 #ifdeà
+_SECURITY__PAM_TYPES_H
+
+
+30 #undeà
+PAM_SILENT
+
+
+31 
+	#PAM_SILENT
+ 0x80000000
+
+	)
+
+33 #undeà
+PAM_CHANGE_EXPIRED_AUTHTOK
+
+
+34 
+	#PAM_CHANGE_EXPIRED_AUTHTOK
+ 0x4
+
+	)
+
+37 #undeà
+PAM_ESTABLISH_CRED
+
+
+38 
+	#PAM_ESTABLISH_CRED
+ 0x1
+
+	)
+
+40 #undeà
+PAM_DELETE_CRED
+
+
+41 
+	#PAM_DELETE_CRED
+ 0x2
+
+	)
+
+43 #undeà
+PAM_REINITIALIZE_CRED
+
+
+44 
+	#PAM_REINITIALIZE_CRED
+ 0x4
+
+	)
+
+46 #undeà
+PAM_REFRESH_CRED
+
+
+47 
+	#PAM_REFRESH_CRED
+ 0x8
+
+	)
+
+51 #undeà
+PAM_CONV_ERR
+
+
+52 
+	#PAM_CONV_ERR
+ 6
+
+	)
+
+54 #undeà
+PAM_PERM_DENIED
+
+
+55 
+	#PAM_PERM_DENIED
+ 7
+
+	)
+
+57 #undeà
+PAM_MAXTRIES
+
+
+58 
+	#PAM_MAXTRIES
+ 8
+
+	)
+
+60 #undeà
+PAM_AUTH_ERR
+
+
+61 
+	#PAM_AUTH_ERR
+ 9
+
+	)
+
+63 #undeà
+PAM_NEW_AUTHTOK_REQD
+
+
+64 
+	#PAM_NEW_AUTHTOK_REQD
+ 10
+
+	)
+
+66 #undeà
+PAM_CRED_INSUFFICIENT
+
+
+67 
+	#PAM_CRED_INSUFFICIENT
+ 11
+
+	)
+
+69 #undeà
+PAM_AUTHINFO_UNAVAIL
+
+
+70 
+	#PAM_AUTHINFO_UNAVAIL
+ 12
+
+	)
+
+72 #undeà
+PAM_USER_UNKNOWN
+
+
+73 
+	#PAM_USER_UNKNOWN
+ 13
+
+	)
+
+75 #undeà
+PAM_CRED_UNAVAIL
+
+
+76 
+	#PAM_CRED_UNAVAIL
+ 14
+
+	)
+
+78 #undeà
+PAM_CRED_EXPIRED
+
+
+79 
+	#PAM_CRED_EXPIRED
+ 15
+
+	)
+
+81 #undeà
+PAM_CRED_ERR
+
+
+82 
+	#PAM_CRED_ERR
+ 16
+
+	)
+
+84 #undeà
+PAM_ACCT_EXPIRED
+
+
+85 
+	#PAM_ACCT_EXPIRED
+ 17
+
+	)
+
+87 #undeà
+PAM_AUTHTOK_EXPIRED
+
+
+88 
+	#PAM_AUTHTOK_EXPIRED
+ 18
+
+	)
+
+90 #undeà
+PAM_SESSION_ERR
+
+
+91 
+	#PAM_SESSION_ERR
+ 19
+
+	)
+
+93 #undeà
+PAM_AUTHTOK_ERR
+
+
+94 
+	#PAM_AUTHTOK_ERR
+ 20
+
+	)
+
+96 #undeà
+PAM_AUTHTOK_RECOVERY_ERR
+
+
+97 
+	#PAM_AUTHTOK_RECOVERY_ERR
+ 21
+
+	)
+
+99 #undeà
+PAM_AUTHTOK_LOCK_BUSY
+
+
+100 
+	#PAM_AUTHTOK_LOCK_BUSY
+ 22
+
+	)
+
+102 #undeà
+PAM_AUTHTOK_DISABLE_AGING
+
+
+103 
+	#PAM_AUTHTOK_DISABLE_AGING
+ 23
+
+	)
+
+105 #undeà
+PAM_NO_MODULE_DATA
+
+
+106 
+	#PAM_NO_MODULE_DATA
+ 24
+
+	)
+
+108 #undeà
+PAM_IGNORE
+
+
+109 
+	#PAM_IGNORE
+ 25
+
+	)
+
+111 #undeà
+PAM_ABORT
+
+
+112 
+	#PAM_ABORT
+ 26
+
+	)
+
+114 #undeà
+PAM_TRY_AGAIN
+
+
+115 
+	#PAM_TRY_AGAIN
+ 27
+
+	)
+
+122 
+	#PAM_AUTHTOK_RECOVER_ERR
+ 
+PAM_AUTHTOK_RECOVERY_ERR
+
+
+	)
+
+	@/usr/include/security/_pam_types.h
+
+10 #iâdeà
+_SECURITY__PAM_TYPES_H
+
+
+11 
+	#_SECURITY__PAM_TYPES_H
+
+
+	)
+
+18 
+·m_hªdË
+ 
+	t·m_hªdË_t
+;
+
+24 
+	#__LINUX_PAM__
+ 1
+
+	)
+
+25 
+	#__LINUX_PAM_MINOR__
+ 0
+
+	)
+
+29 
+	#PAM_SUCCESS
+ 0
+
+	)
+
+30 
+	#PAM_OPEN_ERR
+ 1
+
+	)
+
+32 
+	#PAM_SYMBOL_ERR
+ 2
+
+	)
+
+33 
+	#PAM_SERVICE_ERR
+ 3
+
+	)
+
+34 
+	#PAM_SYSTEM_ERR
+ 4
+
+	)
+
+35 
+	#PAM_BUF_ERR
+ 5
+
+	)
+
+36 
+	#PAM_PERM_DENIED
+ 6
+
+	)
+
+37 
+	#PAM_AUTH_ERR
+ 7
+
+	)
+
+38 
+	#PAM_CRED_INSUFFICIENT
+ 8
+
+	)
+
+40 
+	#PAM_AUTHINFO_UNAVAIL
+ 9
+
+	)
+
+43 
+	#PAM_USER_UNKNOWN
+ 10
+
+	)
+
+45 
+	#PAM_MAXTRIES
+ 11
+
+	)
+
+49 
+	#PAM_NEW_AUTHTOK_REQD
+ 12
+
+	)
+
+55 
+	#PAM_ACCT_EXPIRED
+ 13
+
+	)
+
+56 
+	#PAM_SESSION_ERR
+ 14
+
+	)
+
+58 
+	#PAM_CRED_UNAVAIL
+ 15
+
+	)
+
+61 
+	#PAM_CRED_EXPIRED
+ 16
+
+	)
+
+62 
+	#PAM_CRED_ERR
+ 17
+
+	)
+
+63 
+	#PAM_NO_MODULE_DATA
+ 18
+
+	)
+
+64 
+	#PAM_CONV_ERR
+ 19
+
+	)
+
+65 
+	#PAM_AUTHTOK_ERR
+ 20
+
+	)
+
+66 
+	#PAM_AUTHTOK_RECOVERY_ERR
+ 21
+
+	)
+
+68 
+	#PAM_AUTHTOK_LOCK_BUSY
+ 22
+
+	)
+
+69 
+	#PAM_AUTHTOK_DISABLE_AGING
+ 23
+
+	)
+
+70 
+	#PAM_TRY_AGAIN
+ 24
+
+	)
+
+71 
+	#PAM_IGNORE
+ 25
+
+	)
+
+74 
+	#PAM_ABORT
+ 26
+
+	)
+
+75 
+	#PAM_AUTHTOK_EXPIRED
+ 27
+
+	)
+
+76 
+	#PAM_MODULE_UNKNOWN
+ 28
+
+	)
+
+78 
+	#PAM_BAD_ITEM
+ 29
+
+	)
+
+79 
+	#PAM_CONV_AGAIN
+ 30
+
+	)
+
+81 
+	#PAM_INCOMPLETE
+ 31
+
+	)
+
+91 
+	#_PAM_RETURN_VALUES
+ 32
+
+	)
+
+97 
+	#PAM_SILENT
+ 0x8000U
+
+	)
+
+103 
+	#PAM_DISALLOW_NULL_AUTHTOK
+ 0x0001U
+
+	)
+
+108 
+	#PAM_ESTABLISH_CRED
+ 0x0002U
+
+	)
+
+111 
+	#PAM_DELETE_CRED
+ 0x0004U
+
+	)
+
+114 
+	#PAM_REINITIALIZE_CRED
+ 0x0008U
+
+	)
+
+117 
+	#PAM_REFRESH_CRED
+ 0x0010U
+
+	)
+
+124 
+	#PAM_CHANGE_EXPIRED_AUTHTOK
+ 0x0020U
+
+	)
+
+132 
+	#PAM_SERVICE
+ 1
+
+	)
+
+133 
+	#PAM_USER
+ 2
+
+	)
+
+134 
+	#PAM_TTY
+ 3
+
+	)
+
+135 
+	#PAM_RHOST
+ 4
+
+	)
+
+136 
+	#PAM_CONV
+ 5
+
+	)
+
+137 
+	#PAM_AUTHTOK
+ 6
+
+	)
+
+138 
+	#PAM_OLDAUTHTOK
+ 7
+
+	)
+
+139 
+	#PAM_RUSER
+ 8
+
+	)
+
+140 
+	#PAM_USER_PROMPT
+ 9
+
+	)
+
+142 
+	#PAM_FAIL_DELAY
+ 10
+
+	)
+
+144 
+	#PAM_XDISPLAY
+ 11
+
+	)
+
+145 
+	#PAM_XAUTHDATA
+ 12
+
+	)
+
+146 
+	#PAM_AUTHTOK_TYPE
+ 13
+
+	)
+
+150 #ià
+defšed
+(
+__GNUC__
+è&& defšed(
+__GNUC_MINOR__
+)
+
+151 
+	#PAM_GNUC_PREREQ
+(
+maj
+, 
+mš
+) \
+
+152 ((
+__GNUC__
+ << 16è+ 
+__GNUC_MINOR__
+ >ð((
+maj
+è<< 16è+ (
+mš
+))
+
+	)
+
+154 
+	#PAM_GNUC_PREREQ
+(
+maj
+, 
+mš
+è0
+
+	)
+
+157 #ià
+PAM_GNUC_PREREQ
+(2,5)
+
+158 
+	#PAM_FORMAT
+(
+·¿ms
+è
+	`__©Œibu‹__
+((
+__fÜm©__
+…¬ams))
+
+	)
+
+160 
+	#PAM_FORMAT
+(
+·¿ms
+)
+
+	)
+
+163 #ià
+PAM_GNUC_PREREQ
+(3,3è&& !
+defšed
+(
+LIBPAM_COMPILE
+)
+
+164 
+	#PAM_NONNULL
+(
+·¿ms
+è
+	`__©Œibu‹__
+((
+__nÚnuÎ__
+…¬ams))
+
+	)
+
+166 
+	#PAM_NONNULL
+(
+·¿ms
+)
+
+	)
+
+171 
+PAM_NONNULL
+((1))
+
+172 
+·m_£t_™em
+(
+·m_hªdË_t
+ *
+·mh
+, 
+™em_ty³
+, cÚ¡ *
+™em
+);
+
+174 
+PAM_NONNULL
+((1))
+
+175 
+·m_g‘_™em
+(cÚ¡ 
+·m_hªdË_t
+ *
+·mh
+, 
+™em_ty³
+, cÚ¡ **
+™em
+);
+
+178 
+·m_¡»¼Ü
+(
+·m_hªdË_t
+ *
+·mh
+, 
+”ºum
+);
+
+180 
+PAM_NONNULL
+((1,2))
+
+181 
+·m_pu‹nv
+(
+·m_hªdË_t
+ *
+·mh
+, cÚ¡ *
+Çme_v®ue
+);
+
+183 cÚ¡ * 
+PAM_NONNULL
+((1,2))
+
+184 
+·m_g‘’v
+(
+·m_hªdË_t
+ *
+·mh
+, cÚ¡ *
+Çme
+);
+
+186 ** 
+PAM_NONNULL
+((1))
+
+187 
+·m_g‘’vli¡
+(
+·m_hªdË_t
+ *
+·mh
+);
+
+200 
+	#PAM_DATA_SILENT
+ 0x40000000
+
+	)
+
+216 
+	#HAVE_PAM_FAIL_DELAY
+
+
+	)
+
+217 
+·m_çž_d–ay
+(
+·m_hªdË_t
+ *
+·mh
+, 
+mu£c_d–ay
+);
+
+223 
+	#PAM_PROMPT_ECHO_OFF
+ 1
+
+	)
+
+224 
+	#PAM_PROMPT_ECHO_ON
+ 2
+
+	)
+
+225 
+	#PAM_ERROR_MSG
+ 3
+
+	)
+
+226 
+	#PAM_TEXT_INFO
+ 4
+
+	)
+
+230 
+	#PAM_RADIO_TYPE
+ 5
+
+	)
+
+235 
+	#PAM_BINARY_PROMPT
+ 7
+
+	)
+
+240 
+	#PAM_MAX_NUM_MSG
+ 32
+
+	)
+
+241 
+	#PAM_MAX_MSG_SIZE
+ 512
+
+	)
+
+242 
+	#PAM_MAX_RESP_SIZE
+ 512
+
+	)
+
+248 
+	s·m_mes§ge
+ {
+
+249 
+	mmsg_¡yË
+;
+
+250 cÚ¡ *
+	mmsg
+;
+
+273 
+	s·m_»¥Ú£
+ {
+
+274 *
+	m»¥
+;
+
+275 
+	m»¥_»tcode
+;
+
+280 
+	s·m_cÚv
+ {
+
+281 (*
+	mcÚv
+)(
+	mnum_msg
+, cÚ¡ 
+·m_mes§ge
+ **
+	mmsg
+,
+
+282 
+·m_»¥Ú£
+ **
+	m»¥
+, *
+	m­pd©a_±r
+);
+
+283 *
+	m­pd©a_±r
+;
+
+290 
+	s·m_xauth_d©a
+ {
+
+291 
+	mÇm–’
+;
+
+292 *
+	mÇme
+;
+
+293 
+	md©®’
+;
+
+294 *
+	md©a
+;
+
+	@
+1
+.
+1
+/usr/include
+5
+154
+pam_ext_ssl.c
+/usr/include/security/pam_appl.h
+/usr/include/security/pam_modules.h
+/usr/include/security/_pam_compat.h
+/usr/include/security/_pam_types.h
